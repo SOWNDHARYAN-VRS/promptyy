@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Adsense from './Adsense';
 
 type Genre = "Fantasy" | "Sci-Fi" | "Mythology" | "Mystery";
 
@@ -189,11 +190,7 @@ const WorldLab = () => {
                         {/* Ad Unit Placeholder (Google AdSense) */}
                         <div className="mt-8">
                             <div className="w-full min-h-[250px] rounded-[2.5rem] bg-slate-50 dark:bg-white/[0.02] border border-dashed border-slate-200 dark:border-white/10 flex flex-col items-center justify-center p-6 text-center space-y-2 opacity-60">
-                                <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Sponsored Data Stream</span>
-                                <div className="text-[10px] text-slate-400 italic">
-                                    {/* REPLACE THIS DIV WITH YOUR ADSENSE SCRIPT CODE */}
-                                    Google AdSense Test Placement
-                                </div>
+                                <Adsense />
                             </div>
                         </div>
                     </div>
