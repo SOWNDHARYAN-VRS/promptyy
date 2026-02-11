@@ -6,7 +6,16 @@ services:
     publishPath: dist
     routes:
       - type: rewrite
+        source: /tools
+        destination: /index.html
+      - type: rewrite
         source: /world-lab
+        destination: /index.html
+      - type: rewrite
+        source: /write
+        destination: /index.html
+      - type: rewrite
+        source: /about
         destination: /index.html
       - type: rewrite
         source: /*
