@@ -8,8 +8,23 @@ declare global {
 
 const Adsense = () => {
     const adRef = useRef<HTMLModElement>(null);
+    const clientId = import.meta.env.VITE_ADSENSE_CLIENT_ID;
+    const slotId = import.meta.env.VITE_ADSENSE_SLOT_ID;
 
     useEffect(() => {
+        // Load AdSense script dynamically with client ID
+        const loadAdSenseScript = () => {
+            if (!document.querySelector('script[src*="adsbygoogle"]')) {
+                const script = document.createElement('script');
+                script.async = true;
+                script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${clientId}`;
+                script.crossOrigin = 'anonymous';
+                document.head.appendChild(script);
+            }
+        };
+
+        loadAdSenseScript();
+
         // Ensure ad container has dimensions before pushing to AdSense
         const initializeAd = () => {
             if (adRef.current && window.adsbygoogle) {
@@ -28,11 +43,11 @@ const Adsense = () => {
             }
         };
 
-        // Initialize ad after component mounts and DOM is ready
-        const timer = setTimeout(initializeAd, 500);
+        // Initialize ad after script loads and DOM is ready
+        const timer = setTimeout(initializeAd, 1000);
 
         return () => clearTimeout(timer);
-    }, []);
+    }, [clientId]);
 
     return (
         <div className="w-full min-h-[250px] bg-slate-100 dark:bg-slate-800 rounded-xl flex items-center justify-center">
@@ -44,9 +59,10 @@ const Adsense = () => {
                     width: '300px',
                     height: '250px'
                 }}
-                data-ad-client="ca-pub-7440197348376449"
-                data-ad-slot="6945846286"
+                data-ad-client={clientId}
+                data-ad-slot={slotId}
                 data-ad-format="rectangle"
+                data-ad-test="on"
                 data-full-width-responsive="false"
             />
         </div>
