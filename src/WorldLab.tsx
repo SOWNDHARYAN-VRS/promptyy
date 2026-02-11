@@ -188,10 +188,8 @@ const WorldLab = () => {
                         </div>
 
                         {/* Ad Unit Placeholder (Google AdSense) */}
-                        <div className="mt-8">
-                            <div className="w-full min-h-[250px] rounded-[2.5rem] bg-slate-50 dark:bg-white/[0.02] border border-dashed border-slate-200 dark:border-white/10 flex flex-col items-center justify-center p-6 text-center space-y-2 opacity-60">
-                                <Adsense />
-                            </div>
+                        <div className="mt-8 w-full min-h-[250px] rounded-[2.5rem] overflow-hidden">
+                            <Adsense />
                         </div>
                     </div>
 

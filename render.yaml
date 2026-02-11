@@ -6,5 +6,8 @@ services:
     publishPath: dist
     routes:
       - type: rewrite
+        source: /world-lab
+        destination: /index.html
+      - type: rewrite
         source: /*
         destination: /index.html

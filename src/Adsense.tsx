@@ -16,13 +16,20 @@ const Adsense = () => {
     }, []);
 
     return (
-
-        <ins     className="adsbygoogle"
-            style={{ display: 'block' }}
-     data-ad-client="ca-pub-7440197348376449"
-     data-ad-slot="6945846286"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+        <div className="w-full min-h-[250px]">
+            <ins 
+                className="adsbygoogle"
+                style={{ 
+                    display: 'block',
+                    width: '100%',
+                    minHeight: '250px'
+                }}
+                data-ad-client="ca-pub-7440197348376449"
+                data-ad-slot="6945846286"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+            />
+        </div>
     );
 };
 
