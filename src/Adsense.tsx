@@ -50,7 +50,7 @@ const Adsense = () => {
     }, [clientId]);
 
     return (
-        <div className="w-full min-h-[250px] bg-slate-100 dark:bg-slate-800 rounded-xl flex items-center justify-center">
+        <div className="w-full min-h-[250px] bg-slate-100 dark:bg-slate-800 rounded-xl flex items-center justify-center relative">
             <ins 
                 ref={adRef}
                 className="adsbygoogle"
@@ -62,9 +62,11 @@ const Adsense = () => {
                 data-ad-client={clientId}
                 data-ad-slot={slotId}
                 data-ad-format="rectangle"
-                data-ad-test="on"
                 data-full-width-responsive="false"
             />
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-50">
+                <span className="text-xs text-slate-500">Ad Space</span>
+            </div>
         </div>
     );
 };
