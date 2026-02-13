@@ -189,47 +189,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Testimonials Section */}
-            <section className="py-20 px-6 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-900 dark:to-slate-800">
-                <div className="max-w-screen-xl mx-auto">
-                    <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-12 text-center">
-                        What Writers Say
-                    </h2>
-                    <div className="grid md:grid-cols-2 gap-8">
-                        <div className="p-6 rounded-2xl bg-white dark:bg-slate-800 shadow-lg">
-                            <p className="text-slate-600 dark:text-slate-400 italic mb-4">
-                                "The rhythm analysis transformed my writing style. I never realized how monotonous my 
-                                sentence structures were until I started using Promptyy. Now my prose flows naturally."
-                            </p>
-                            <div className="flex items-center gap-3">
-                                <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center">
-                                    <span className="text-blue-600 dark:text-blue-400 font-semibold">JD</span>
-                                </div>
-                                <div>
-                                    <p className="font-semibold text-slate-800 dark:text-slate-200">Jane Doe</p>
-                                    <p className="text-sm text-slate-500 dark:text-slate-500">Fiction Author</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="p-6 rounded-2xl bg-white dark:bg-slate-800 shadow-lg">
-                            <p className="text-slate-600 dark:text-slate-400 italic mb-4">
-                                "World Lab saved me hundreds of hours. The generated names and places are linguistically 
-                                consistent and perfectly match my fantasy world's aesthetic. It's like having a cultural 
-                                consultant built into my writing tools."
-                            </p>
-                            <div className="flex items-center gap-3">
-                                <div className="w-12 h-12 rounded-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center">
-                                    <span className="text-indigo-600 dark:text-indigo-400 font-semibold">RS</span>
-                                </div>
-                                <div>
-                                    <p className="font-semibold text-slate-800 dark:text-slate-200">Robert Smith</p>
-                                    <p className="text-sm text-slate-500 dark:text-slate-500">Fantasy Novelist</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
     );
 };
