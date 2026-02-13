@@ -71,7 +71,7 @@ const analyzeReadability = (text: string) => {
 };
 
 const Tools = () => {
-    const [text, setText] = useState("");
+    const [text, setText] = useState("The ancient library stood silent, its towering shelves filled with forgotten knowledge. Dust motes danced in the shafts of golden light that pierced the gloom. Each book held a story, a world waiting to be discovered by those brave enough to turn the pages. The librarian, a woman with eyes that had seen centuries, moved with practiced grace through the aisles. Her fingers traced the spines of volumes that contained the wisdom of ages, their leather covers worn smooth by countless hands. She knew that within these walls lay the power to change the world, one reader at a time. The scent of old paper and ink filled the air, a perfume that spoke of countless stories waiting to be told.");
     const [rhythmResult, setRhythmResult] = useState<any>(null);
     const [readabilityResult, setReadabilityResult] = useState<any>(null);
     const [echoResult, setEchoResult] = useState<any[]>([]);

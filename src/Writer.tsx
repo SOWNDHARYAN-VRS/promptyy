@@ -90,6 +90,29 @@ const Writer = () => {
 
     return (
         <div className="min-h-screen bg-slate-50 dark:bg-slate-950 pt-24 pb-12 px-6 transition-colors duration-700">
+            {/* Writing Tips Header */}
+            <div className="max-w-4xl mx-auto mb-8">
+                <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6">
+                    <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">Writing Environment Tips</h2>
+                    <div className="grid md:grid-cols-3 gap-4">
+                        <div className="text-center">
+                            <div className="text-3xl mb-2">🎯</div>
+                            <h3 className="font-semibold text-slate-800 dark:text-slate-200 mb-1">Focus Mode</h3>
+                            <p className="text-sm text-slate-600 dark:text-slate-400">Minimize distractions and stay in the flow</p>
+                        </div>
+                        <div className="text-center">
+                            <div className="text-3xl mb-2">⏰</div>
+                            <h3 className="font-semibold text-slate-800 dark:text-slate-200 mb-1">Time Management</h3>
+                            <p className="text-sm text-slate-600 dark:text-slate-400">Use timers for structured writing sessions</p>
+                        </div>
+                        <div className="text-center">
+                            <div className="text-3xl mb-2">💾</div>
+                            <h3 className="font-semibold text-slate-800 dark:text-slate-200 mb-1">Auto-Save</h3>
+                            <p className="text-sm text-slate-600 dark:text-slate-400">Your work is saved locally as you type</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <style>
                 {`
                     [contenteditable]:empty:before {

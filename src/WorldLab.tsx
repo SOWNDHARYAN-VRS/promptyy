@@ -191,6 +191,67 @@ const WorldLab = () => {
                         <div className="mt-8 w-full min-h-[250px] rounded-[2.5rem] overflow-hidden">
                             <Adsense />
                         </div>
+
+                        {/* World Building Guide Section */}
+                        <div className="space-y-4">
+                            <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">World Building Guide</h3>
+                            <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                                <h4 className="font-semibold text-slate-800 dark:text-slate-200 mb-3">Creating Consistent Worlds</h4>
+                                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                                    Our algorithms generate linguistically consistent names based on genre-specific patterns. 
+                                    Each genre follows unique phonetic rules and cultural conventions.
+                                </p>
+                                <div className="space-y-3">
+                                    <div className="flex items-start gap-3">
+                                        <div className="w-2 h-2 rounded-full bg-purple-500 mt-1.5"></div>
+                                        <div>
+                                            <p className="font-medium text-slate-700 dark:text-slate-300 text-sm">Fantasy Linguistics</p>
+                                            <p className="text-xs text-slate-500 dark:text-slate-500">Celtic and Germanic influences with mystical endings</p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <div className="w-2 h-2 rounded-full bg-blue-500 mt-1.5"></div>
+                                        <div>
+                                            <p className="font-medium text-slate-700 dark:text-slate-300 text-sm">Sci-Fi Terminology</p>
+                                            <p className="text-xs text-slate-500 dark:text-slate-500">Technical suffixes and scientific prefixes</p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <div className="w-2 h-2 rounded-full bg-amber-500 mt-1.5"></div>
+                                        <div>
+                                            <p className="font-medium text-slate-700 dark:text-slate-300 text-sm">Mythological Patterns</p>
+                                            <p className="text-xs text-slate-500 dark:text-slate-500">Classical endings and ancient linguistic roots</p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start gap-3">
+                                        <div className="w-2 h-2 rounded-full bg-green-500 mt-1.5"></div>
+                                        <div>
+                                            <p className="font-medium text-slate-700 dark:text-slate-300 text-sm">Mystery Conventions</p>
+                                            <p className="text-xs text-slate-500 dark:text-slate-500">English place names and traditional surnames</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Usage Tips */}
+                        <div className="space-y-4">
+                            <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">Usage Tips</h3>
+                            <div className="space-y-3">
+                                <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800">
+                                    <p className="text-sm font-medium text-blue-800 dark:text-blue-200 mb-1">Pro Tip</p>
+                                    <p className="text-xs text-blue-600 dark:text-blue-400">
+                                        Generate multiple identities and locations to build a cohesive world with consistent naming patterns.
+                                    </p>
+                                </div>
+                                <div className="p-4 rounded-xl bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800">
+                                    <p className="text-sm font-medium text-green-800 dark:text-green-200 mb-1">Creative Spark</p>
+                                    <p className="text-xs text-green-600 dark:text-green-400">
+                                        Use prompts as story starters or combine multiple generated elements for complex narratives.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Right Panel: Synthesis Feed */}

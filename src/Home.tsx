@@ -91,6 +91,145 @@ const Home = () => {
                     ))}
                 </div>
             </section>
+
+            {/* Detailed Content Section */}
+            <section className="py-20 px-6 bg-white/30 dark:bg-slate-900/30">
+                <div className="max-w-screen-xl mx-auto">
+                    <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-12 text-center">
+                        Why Writers Choose Promptyy
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-12">
+                        <div className="space-y-6">
+                            <h3 className="text-2xl font-semibold text-slate-800 dark:text-slate-200">
+                                Advanced Text Analysis
+                            </h3>
+                            <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Our proprietary algorithms analyze your writing in real-time, providing insights into rhythm, 
+                                flow, and lexical patterns. The Flex-Pace algorithm measures sentence variation to help you 
+                                maintain engaging prose, while Nodal Echo identifies recurring themes and motifs in your work.
+                            </p>
+                            <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Professional writers use these tools to refine their style, eliminate repetitive patterns, 
+                                and create more compelling narratives. Whether you're writing fiction, non-fiction, or 
+                                technical content, our analysis tools help you achieve professional polish.
+                            </p>
+                        </div>
+                        <div className="space-y-6">
+                            <h3 className="text-2xl font-semibold text-slate-800 dark:text-slate-200">
+                                World-Building Excellence
+                            </h3>
+                            <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                                The World Lab generates linguistically consistent names, places, and concepts tailored to 
+                                your chosen genre. Our algorithms understand the phonetic patterns and naming conventions 
+                                specific to Fantasy, Sci-Fi, Mythology, and Mystery genres.
+                            </p>
+                            <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Create immersive worlds with culturally appropriate names, generate creative prompts that 
+                                respect genre conventions, and build complex lore systems that maintain internal consistency. 
+                                Perfect for novelists, game masters, and creative writing instructors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Writing Tips Section */}
+            <section className="py-20 px-6">
+                <div className="max-w-screen-xl mx-auto">
+                    <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-12 text-center">
+                        Writing Resources & Tips
+                    </h2>
+                    <div className="grid md:grid-cols-3 gap-8">
+                        <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4">
+                                Mastering Sentence Rhythm
+                            </h3>
+                            <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                                Varying sentence length creates dynamic prose. Use short sentences for impact and longer 
+                                sentences for detailed descriptions. Our rhythm analyzer helps you find the perfect balance.
+                            </p>
+                            <ul className="text-slate-500 dark:text-slate-500 space-y-2 text-sm">
+                                <li>• Mix simple, compound, and complex sentences</li>
+                                <li>• Use rhythm to control reading pace</li>
+                                <li>• Create flow with transitional phrases</li>
+                                <li>• Break up monotonous patterns</li>
+                            </ul>
+                        </div>
+                        <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4">
+                                Building Consistent Worlds
+                            </h3>
+                            <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                                Consistency is key to immersive world-building. Keep detailed notes about your world's 
+                                rules, cultures, and geography. Use our World Lab to generate culturally appropriate names.
+                            </p>
+                            <ul className="text-slate-500 dark:text-slate-500 space-y-2 text-sm">
+                                <li>• Establish clear world rules early</li>
+                                <li>• Create naming conventions</li>
+                                <li>• Document cultural details</li>
+                                <li>• Use maps and timelines</li>
+                            </ul>
+                        </div>
+                        <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                            <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4">
+                                Overcoming Writer's Block
+                            </h3>
+                            <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                                Every writer faces creative blocks. Use our prompt generator and writing tools to 
+                                jumpstart your creativity. Sometimes changing your environment or writing routine helps.
+                            </p>
+                            <ul className="text-slate-500 dark:text-slate-500 space-y-2 text-sm">
+                                <li>• Try different writing prompts</li>
+                                <li>• Change your writing schedule</li>
+                                <li>• Use our analytical tools</li>
+                                <li>• Read widely in your genre</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Testimonials Section */}
+            <section className="py-20 px-6 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-900 dark:to-slate-800">
+                <div className="max-w-screen-xl mx-auto">
+                    <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-12 text-center">
+                        What Writers Say
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <div className="p-6 rounded-2xl bg-white dark:bg-slate-800 shadow-lg">
+                            <p className="text-slate-600 dark:text-slate-400 italic mb-4">
+                                "The rhythm analysis transformed my writing style. I never realized how monotonous my 
+                                sentence structures were until I started using Promptyy. Now my prose flows naturally."
+                            </p>
+                            <div className="flex items-center gap-3">
+                                <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center">
+                                    <span className="text-blue-600 dark:text-blue-400 font-semibold">JD</span>
+                                </div>
+                                <div>
+                                    <p className="font-semibold text-slate-800 dark:text-slate-200">Jane Doe</p>
+                                    <p className="text-sm text-slate-500 dark:text-slate-500">Fiction Author</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-6 rounded-2xl bg-white dark:bg-slate-800 shadow-lg">
+                            <p className="text-slate-600 dark:text-slate-400 italic mb-4">
+                                "World Lab saved me hundreds of hours. The generated names and places are linguistically 
+                                consistent and perfectly match my fantasy world's aesthetic. It's like having a cultural 
+                                consultant built into my writing tools."
+                            </p>
+                            <div className="flex items-center gap-3">
+                                <div className="w-12 h-12 rounded-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center">
+                                    <span className="text-indigo-600 dark:text-indigo-400 font-semibold">RS</span>
+                                </div>
+                                <div>
+                                    <p className="font-semibold text-slate-800 dark:text-slate-200">Robert Smith</p>
+                                    <p className="text-sm text-slate-500 dark:text-slate-500">Fantasy Novelist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };

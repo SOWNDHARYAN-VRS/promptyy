@@ -36,6 +36,136 @@ const About = () => {
                         </div>
                     </div>
 
+                    {/* Detailed Features Section */}
+                    <div className="space-y-12">
+                        <div className="text-center">
+                            <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-8">Our Technology</h2>
+                            <p className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
+                                Cutting-edge algorithms designed specifically for creative writing and world-building
+                            </p>
+                        </div>
+                        
+                        <div className="grid md:grid-cols-3 gap-8">
+                            <div className="p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4">Flex-Pace Algorithm</h3>
+                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                                    Analyzes sentence length variation to identify monotonous or fragmented writing patterns. 
+                                    Helps create dynamic, engaging prose that keeps readers interested.
+                                </p>
+                                <ul className="text-slate-500 dark:text-slate-500 space-y-2 text-sm">
+                                    <li>• Real-time rhythm analysis</li>
+                                    <li>• Sentence variation metrics</li>
+                                    <li>• Flow optimization suggestions</li>
+                                    <li>• Professional writing standards</li>
+                                </ul>
+                            </div>
+                            
+                            <div className="p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4">Nodal Echo Detection</h3>
+                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                                    Identifies recurring themes and lexical patterns in your writing using advanced 
+                                    heat-mapping algorithms to track word resonance and thematic consistency.
+                                </p>
+                                <ul className="text-slate-500 dark:text-slate-500 space-y-2 text-sm">
+                                    <li>• Thematic pattern recognition</li>
+                                    <li>• Lexical resonance mapping</li>
+                                    <li>• Word frequency analysis</li>
+                                    <li>• Motif tracking system</li>
+                                </ul>
+                            </div>
+                            
+                            <div className="p-6 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-4">World Generation Engine</h3>
+                                <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                                    Creates linguistically consistent names, places, and concepts tailored to specific 
+                                    genres using phonetic patterns and cultural naming conventions.
+                                </p>
+                                <ul className="text-slate-500 dark:text-slate-500 space-y-2 text-sm">
+                                    <li>• Genre-specific linguistics</li>
+                                    <li>• Cultural naming patterns</li>
+                                    <li>• Prompt generation system</li>
+                                    <li>• World consistency tools</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Use Cases Section */}
+                    <div className="space-y-8">
+                        <div className="text-center">
+                            <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-8">Who Uses Promptyy</h2>
+                        </div>
+                        
+                        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-center">
+                                <div className="w-16 h-16 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center mx-auto mb-4">
+                                    <span className="text-2xl">📚</span>
+                                </div>
+                                <h3 className="font-semibold text-slate-800 dark:text-slate-200 mb-2">Novelists</h3>
+                                <p className="text-sm text-slate-600 dark:text-slate-400">
+                                    Craft compelling narratives with advanced rhythm analysis and world-building tools
+                                </p>
+                            </div>
+                            
+                            <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-center">
+                                <div className="w-16 h-16 rounded-full bg-green-100 dark:bg-green-900 flex items-center justify-center mx-auto mb-4">
+                                    <span className="text-2xl">🎲</span>
+                                </div>
+                                <h3 className="font-semibold text-slate-800 dark:text-slate-200 mb-2">Game Masters</h3>
+                                <p className="text-sm text-slate-600 dark:text-slate-400">
+                                    Create immersive worlds with consistent naming and lore generation systems
+                                </p>
+                            </div>
+                            
+                            <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-center">
+                                <div className="w-16 h-16 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center mx-auto mb-4">
+                                    <span className="text-2xl">🎓</span>
+                                </div>
+                                <h3 className="font-semibold text-slate-800 dark:text-slate-200 mb-2">Educators</h3>
+                                <p className="text-sm text-slate-600 dark:text-slate-400">
+                                    Teach writing techniques with data-driven insights and analytical tools
+                                </p>
+                            </div>
+                            
+                            <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-center">
+                                <div className="w-16 h-16 rounded-full bg-orange-100 dark:bg-orange-900 flex items-center justify-center mx-auto mb-4">
+                                    <span className="text-2xl">✍️</span>
+                                </div>
+                                <h3 className="font-semibold text-slate-800 dark:text-slate-200 mb-2">Content Creators</h3>
+                                <p className="text-sm text-slate-600 dark:text-slate-400">
+                                    Produce engaging content with professional writing quality and consistency
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Philosophy Section */}
+                    <div className="p-12 rounded-[3rem] bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-blue-900/20 border border-slate-200 dark:border-slate-700">
+                        <div className="text-center space-y-6">
+                            <h2 className="text-3xl font-bold text-slate-900 dark:text-white">Our Philosophy</h2>
+                            <p className="text-lg text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed">
+                                We believe that great writing comes from the intersection of creativity and craft. 
+                                Our tools are designed to enhance, not replace, the human element of storytelling. 
+                                By providing data-driven insights and removing technical barriers, we help writers 
+                                focus on what matters most: telling compelling stories that resonate with readers.
+                            </p>
+                            <div className="grid md:grid-cols-3 gap-8 mt-12">
+                                <div className="text-center">
+                                    <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">Privacy First</div>
+                                    <p className="text-sm text-slate-600 dark:text-slate-400">Your work stays on your device. No cloud storage, no data mining.</p>
+                                </div>
+                                <div className="text-center">
+                                    <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">Open Source</div>
+                                    <p className="text-sm text-slate-600 dark:text-slate-400">Transparent algorithms you can trust and modify for your needs.</p>
+                                </div>
+                                <div className="text-center">
+                                    <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">Writer Focused</div>
+                                    <p className="text-sm text-slate-600 dark:text-slate-400">Built by writers, for writers, with real-world creative challenges in mind.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* Contact Module */}
                     <div className="p-10 rounded-[3rem] bg-slate-900 dark:bg-white/5 border border-white/5 shadow-2xl relative overflow-hidden group">
                         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
