@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MyApp - Next.js Application",
+  title: "promptyy - Next.js Application",
   description: "A modern Next.js application built with TypeScript and Tailwind CSS",
   keywords: ["nextjs", "react", "typescript", "tailwindcss"],
   authors: [{ name: "Your Name" }],
   openGraph: {
-    title: "MyApp",
+    title: "promptyy",
     description: "A modern Next.js application",
     type: "website",
   },

@@ -3,7 +3,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center justify-center p-8">
       <div className="max-w-2xl w-full text-center space-y-8">
         <h1 className="text-4xl font-bold tracking-tight">
-          Welcome to MyApp
+          Welcome to promptyy
         </h1>
         
         <p className="text-lg text-gray-600 dark:text-gray-400">

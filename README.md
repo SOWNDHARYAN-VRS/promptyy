@@ -22,8 +22,8 @@ A modern Next.js application built with TypeScript and Tailwind CSS. Ready for y
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/myapp.git
-cd myapp
+git clone https://github.com/yourusername/promptyy.git
+cd promptyy
 ```
 
 2. Install dependencies:
@@ -55,7 +55,7 @@ The static files will be generated in the `dist` directory.
 ## Project Structure
 
 ```
-myapp/
+promptyy/
 ├── src/
 │   └── app/
 │       ├── globals.css    # Global styles
