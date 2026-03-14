@@ -22,7 +22,7 @@ A modern Next.js application built with TypeScript and Tailwind CSS. Ready for y
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/promptyy.git
+git clone repo-url
 cd promptyy
 ```
 
