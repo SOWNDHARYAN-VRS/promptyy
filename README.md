@@ -1,4 +1,4 @@
-# MyApp
+# Promptyy
 
 A modern Next.js application built with TypeScript and Tailwind CSS. Ready for your next open source project.
 
